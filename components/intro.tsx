@@ -31,8 +31,8 @@ export default function Intro() {
             }}
           >
             <Image
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fit=crop&w=368&h=368&q=100"
-              alt="Ricardo portrait"
+              src="https://s3.brilliant.com.bd/my_storage/rsz_11whatsapp_image_2023-11-23_at_32621_pm.jpg"
+              alt="Raufur portrait"
               width="192"
               height="192"
               quality="95"
