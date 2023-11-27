@@ -1,6 +1,7 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
+import { FaCloud } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import adminportalImg from "@/public/admin-portal.png"
@@ -42,25 +43,25 @@ export const experiencesData = [
     location: "Ga-30/G, Pragati Sarani, Dhaka 1212, Bangladesh",
     description:
       "I'm now a software engineer(Cloud Software) in Brilliant Cloud at InterCloud Limited. My stack includes Cloud, Backend, Kubernetes.",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(FaCloud),
     date: "2023 - present",
   },
-  // {
-  //   title: "Graduated bootcamp",
-  //   location: "Miami, FL",
-  //   description:
-  //     "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-  //   icon: React.createElement(LuGraduationCap),
-  //   date: "2019",
-  // },
-  // {
-  //   title: "Front-End Developer",
-  //   location: "Orlando, FL",
-  //   description:
-  //     "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-  //   icon: React.createElement(CgWorkAlt),
-  //   date: "2019 - 2021",
-  // },
+  {
+    title: "BSc in Computer Science & Engineering",
+    location: "Kaptai, Highway Pahartoli, Raozan, Chattogram 4349",
+    description:
+      "I graduated with a BSc in Computer Science and Engineering from Chittagong University of Engineering and Technology",
+    icon: React.createElement(LuGraduationCap),
+    date: "2017-2022",
+  },
+  {
+    title: "Higher Secondary",
+    location: "Arambagh, Motijheel, Dhaka, Bangladesh",
+    description:
+      "I had my higher secondary from Notre Dame College",
+    icon: React.createElement(LuGraduationCap),
+    date: "2014-2016",
+  },
   
 ] as const;
 
