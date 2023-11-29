@@ -66,7 +66,7 @@ export default function Intro() {
         <span className="font-bold">Hello, I'm Raufur.</span> I'm a{" "}
         <span className="font-bold">software engineer</span> with{" "}
         experience in <span className="font-bold">Backend Development</span>. I enjoy
-        building <span className="italic">scalable backend services and server deployment</span>. My focus is{" "}
+        building scalable backend services and server deployment. My focus is{" "}
         <span className="underline">Cloud, DevOps</span>.
       </motion.h1>
 
@@ -92,7 +92,8 @@ export default function Intro() {
 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="/Raufur_cv.pdf"
+          href="/Raufur_cvclear
+          .pdf"
           download
         >
           Download CV{" "}

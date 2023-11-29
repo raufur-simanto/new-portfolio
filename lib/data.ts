@@ -72,6 +72,8 @@ export const projectsData = [
       "I worked as a backend developer on this project for 2 months. It is basically a admin portal for cloud service which is used by admin users",
     tags: ["Flask", "MongoDB", "Docker"],
     imageUrl: adminportalImg,
+    url: 'https://ca.brilliant.com.bd/',
+    
   },
   {
     title: "Online Market",
@@ -79,6 +81,7 @@ export const projectsData = [
       "A online market place where user and buy and sell products. I developed both front-end and backend in this project.",
     tags: ["Flask", "PostgreSQl", "HTML", "CSS", "Docker"],
     imageUrl: onlinemarketImg,
+    url: 'http://36.255.68.49:5002',
   },
   {
     title: "MicroBlog",
@@ -86,6 +89,7 @@ export const projectsData = [
       "A social media platform where user can post blog, see other users post, follow them, send personal message etc. This is a personal project",
     tags: ["Flask", "PostgreSQL", "Elastic Search", "Celery", "Docker"],
     imageUrl: blogImg,
+    url: 'http://36.255.68.49:5000/',
   },
 ] as const;
 
