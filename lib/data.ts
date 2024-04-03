@@ -96,6 +96,8 @@ export const projectsData = [
 export const skillsData = [
   "Docker",
   "kubernetes",
+  "Ansible",
+  "Jenkins",
   "Bash",
   "Grafana",
   "Nginx",
