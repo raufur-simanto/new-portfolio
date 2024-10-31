@@ -10,6 +10,7 @@ import blogImg from "@/public/blog.png"
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
+
 export const links = [
   {
     name: "Home",
@@ -32,9 +33,14 @@ export const links = [
     hash: "#experience",
   },
   {
+    name: "Blog",
+    hash: "#blog",
+  },
+  {
     name: "Contact",
     hash: "#contact",
   },
+  
 ] as const;
 
 export const experiencesData = [
@@ -64,6 +70,26 @@ export const experiencesData = [
   },
   
 ] as const;
+
+export const educationData = [
+  {
+    title: "Bachelor of Science in Computer Science",
+    location: "Your University Name",
+    description:
+      "I completed my bachelor's degree with a focus on software development and algorithms.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2019 - 2023",
+  },
+  {
+    title: "Higher Secondary Certificate",
+    location: "Your College Name",
+    description:
+      "Completed HSC with focus on Science and Mathematics.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2017 - 2019",
+  },
+] as const;
+
 
 export const projectsData = [
   {
@@ -116,3 +142,5 @@ export const skillsData = [
   "CSS",
   
 ] as const;
+
+
